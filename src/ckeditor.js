@@ -4,6 +4,7 @@
  */
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.js';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
+import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
@@ -32,6 +33,7 @@ class Editor extends ClassicEditor {}
 // Plugins to include in the build.
 Editor.builtinPlugins = [
 	Autoformat,
+	AutoImage,
 	Base64UploadAdapter,
 	BlockQuote,
 	Bold,
