@@ -13,10 +13,14 @@ import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
+
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
+import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
+import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
+
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
@@ -42,10 +46,14 @@ Editor.builtinPlugins = [
 	FontFamily,
 	FontSize,
 	Heading,
+
 	Image,
-	ImageCaption,
+	ImageInsert,
+	ImageResize,
 	ImageStyle,
 	ImageToolbar,
+	ImageUpload,
+
 	Indent,
 	Italic,
 	Link,
@@ -80,7 +88,8 @@ Editor.defaultConfig = {
 			'redo',
 			'fontColor',
 			'fontFamily',
-			'fontSize'
+			'fontSize',
+			'imageInsert'
 		]
 	},
 	language: 'en',

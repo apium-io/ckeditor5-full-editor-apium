@@ -2,7 +2,7 @@
   "name": "@apium-io/ckeditor5-full-editor-apium",
   "author": "Apium",
   "description": "CKEditor with full toolbar built by Apium",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "main": "./build/ckeditor.js",
