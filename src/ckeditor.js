@@ -83,6 +83,7 @@ Editor.defaultConfig = {
 			'heading',
 			'|',
 			'bold',
+			'underline',
 			'italic',
 			'link',
 			'bulletedList',
